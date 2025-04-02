@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		44CCD1422D9D90FA000825B6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CCD1412D9D90FA000825B6 /* Persistence.swift */; };
 		44CCD1452D9D90FA000825B6 /* SwiftUIMemoNeukkim.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44CCD1432D9D90FA000825B6 /* SwiftUIMemoNeukkim.xcdatamodeld */; };
+		44E224062D9DA3EE00C11F4D /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E224052D9DA3EE00C11F4D /* Memo.swift */; };
+		44E224082D9DA4A900C11F4D /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E224072D9DA4A900C11F4D /* MemoStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		44CCD13C2D9D90FA000825B6 /* SwiftUIMemoNeukkim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMemoNeukkim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CCD1412D9D90FA000825B6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		44CCD1442D9D90FA000825B6 /* SwiftUIMemoNeukkim.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUIMemoNeukkim.xcdatamodel; sourceTree = "<group>"; };
+		44E224052D9DA3EE00C11F4D /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = SOURCE_ROOT; };
+		44E224072D9DA4A900C11F4D /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -57,6 +61,8 @@
 		44CCD1552D9D914E000825B6 /* Memory */ = {
 			isa = PBXGroup;
 			children = (
+				44E224052D9DA3EE00C11F4D /* Memo.swift */,
+				44E224072D9DA4A900C11F4D /* MemoStore.swift */,
 			);
 			path = Memory;
 			sourceTree = "<group>";
@@ -145,7 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				44CCD1452D9D90FA000825B6 /* SwiftUIMemoNeukkim.xcdatamodeld in Sources */,
+				44E224082D9DA4A900C11F4D /* MemoStore.swift in Sources */,
 				44CCD1422D9D90FA000825B6 /* Persistence.swift in Sources */,
+				44E224062D9DA3EE00C11F4D /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
