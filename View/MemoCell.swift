@@ -6,13 +6,23 @@
 //
 
 import SwiftUI
-
 struct MemoCell: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+  @ObservedObject var memo: Memo
+  
+  var body: some View {
+    VStack(alignment: .leading) {
+      Text(memo.content)
+        .font(.body)
+        .lineLimit(1)
+      
+      Text(memo.insertDate, style:  .date)
+        .font(.caption)
+        .foregroundStyle(.secondary)
     }
+  }
 }
 
+
 #Preview {
-    MemoCell()
+  MemoCell(memo: Memo(content: "Test"))
 }
